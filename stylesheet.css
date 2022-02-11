@@ -25,7 +25,6 @@ body{
   }
   
   #description{
-    opacity: ;
     font-size: 16px;
     font-style: italic;
     max-width: 400px;
@@ -125,7 +124,7 @@ body{
     margin: 0em 0em 2em 0em;
   }
   
-  #image-credit{
+  .plug{
     font-size: 10px;
   }
   
