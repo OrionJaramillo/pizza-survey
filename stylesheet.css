@@ -128,7 +128,7 @@ body{
   
   .plug{
     font-size: 10px;
-
+    text-decoration: none;
   }
 
   #plug-personal{
@@ -137,7 +137,6 @@ body{
   
   a{
     color: rgb(211,211,211);
-    text-decoration: none;
     transition: .5s ease-in-out;
   }
   
