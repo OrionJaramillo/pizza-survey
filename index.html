@@ -1,0 +1,63 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="stylesheet.css">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="top-section">
+      <h1 id="title">Pizza Toppings Survey</h1>
+      <p id="description">One thing that we can all agree on is that Pizza is the best, however, wars have been started over what toppings belong on a pie. What toppings do you like on your slice? </p>
+    </div>
+    <div id="survey-section">
+      <form id="survey-form">
+        <label for="name" id="name-label"> Name<br><input class="text-box" id="name" type="text" placeholder="Name" required></label><br>
+        <label class="label" for="email" id="email-label">Email<br><input class="text-box" id="email" type="email" placeholder="Email" required></label><br>
+        <label for="number" id="number-label">Age<br><input class="text-box" id="number" type="number" placeholder="Age" min="1" max="120" required></label><br>
+        <label for="dropdown">Favorite Style of Pizza<br>
+          <select  id="dropdown">
+            <option value="" disabled selected>Choose Style</option>
+            <option value="thin-crust">Thin Crust</option>
+            <option value="thick-crust">Thick Crust</option>
+            <option value="deep-dish">Deep Dish</option>
+          </select><br>
+        </label><br>
+        <!--- <label for="yes">Do you think pineapple belongs on pizza?<br>
+          <input id="yes" type="radio" name="yes-no" value="yes" checked>Yes</input>
+        </label>
+        <label for="no">
+          <input id="no" type="radio" name="yes-no" value="no">No</input>
+        </label><br>  --->
+        <label for="radio-pineapple">Do you think pineapple belongs on pizza?<br>
+          <p id="boxes"><input id="yes" type="radio" name="yes-no-2" value="yes" checked> Yes</input></p>
+          <p id="boxes"><input id="no" type="radio" name="yes-no-2" value="no"> No</input></p>
+        </label><br>  
+        <label for="checked-toppings">Favorite Toppings<br>
+          <p id="toppings"><input id="checked-toppings" type="checkbox" name="toppings" value="pineapple"> Pineapple</input></p>
+          <p id="toppings"><input id="checked-toppings" type="checkbox" name="toppings" value="sausage"> Sausage</input></p>
+          <p id="toppings"><input id="checked-toppings" type="checkbox" name="toppings" value="pepperoni"> Pepperoni</input></p>
+          <p id="toppings"><input id="checked-toppings" type="checkbox" name="toppings" value="olives"> Olives</input></p>
+          <p id="toppings"><input id="checked-toppings" type="checkbox" name="toppings" value="mushroom"> Mushroom</input></p>
+          <p id="toppings"><input id="checked-toppings" type="checkbox" name="toppings" value="red-pepper"> Red Pepper</input></p>
+          <p id="toppings"><input id="checked-toppings" type="checkbox" name="toppings" value="extra-cheese"> Extra Cheese</input></p>
+          <p id="toppings"><input id="checked-toppings" type="checkbox" name="toppings" value="roasted-garlic"> Roasted Garlic</input></p>
+          <p id="toppings"><input id="checked-toppings" type="checkbox" name="toppings" value="canadian-bacon"> Canadian Bacon</input></p>
+          <p id="toppings"><input id="checked-toppings" type="checkbox" name="toppings" value="green-chile"> Green Chile</input><br>
+        </label><br>
+        <label class="text-box" for="text-area">Have more to say about pizza?<br>
+          <textarea id="text-area" placeholder="Describe your perfect pie."></textarea>
+          </label><br>
+        <label for="submit">
+          <button id="submit" type="submit">Submit</button>
+        </label>
+      </form>
+    </div>
+    <div id="bottom-section">
+        <p id="plug">Created By Orion Jaramillo</p>
+      <p id="image-credit">Background Image: <a id="image-link" target="_blank" href="https://unsplash.com/@shaianramesht">@shaianramesht</a></p>
+    </div>
+</body>
+</html>
