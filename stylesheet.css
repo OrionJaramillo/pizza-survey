@@ -42,7 +42,8 @@ body{
     border-width: 0px;
     border-style: solid;
     border-radius: 1%;
-    background-color: rgba(60, 60, 60, 0.7);
+    background-color: rgba(50, 50, 50, 0.8);
+    backdrop-filter: blur(10px);
     line-height: 1.25em;
   }
   
@@ -112,6 +113,7 @@ body{
   
   button{
     cursor: pointer;
+    transition: .5s ease-in-out;
   }
   
   button:hover{
@@ -126,13 +128,20 @@ body{
   
   .plug{
     font-size: 10px;
+
+  }
+
+  #plug-personal{
+    font-size: 14px;
   }
   
   a{
     color: rgb(211,211,211);
+    text-decoration: none;
+    transition: .5s ease-in-out;
   }
   
   a:hover {
-    color: rgba(255, 147, 79, .85);
+    color: rgb(255, 187, 0);
   }
   
